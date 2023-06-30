@@ -73,10 +73,20 @@ h4 {
   line-height: 1.2;
   text-align: center;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-h4:first-of-type {
-  padding-top: 40px;
+section h4 {
+  padding-top: 5px;
+}
+
+.first-titles {
+  padding-top: 35px;
+}
+
+.second-titles {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 p {
@@ -105,12 +115,31 @@ article img {
   padding-bottom: 30px;
 }
 
+.section-img1,
+.section-img2,
+.section-img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.section-img1 {
+  padding-top: 50px;
+}
+
 footer {
   background-color: #25a2c3;
 }
 
 footer p {
-  color: #ffffff;
+  color: #c8e7f0;
+}
+
+footer a {
+  color: #c8e7f0;
 }
 
 hr {
