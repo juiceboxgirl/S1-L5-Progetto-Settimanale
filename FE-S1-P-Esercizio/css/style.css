@@ -9,16 +9,14 @@ body {
 .header-img {
   display: block;
   background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .box-1 {
   background-color: #000000;
   font-size: 16px;
-  padding: 30px;
-  align-content: justify;
 }
 
 p {
@@ -123,11 +121,6 @@ section h4 {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-
-p:first-of-type {
-  padding-bottom: 30px;
-}
-
 article img {
   border-radius: 50%;
   display: block;
